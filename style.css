@@ -1,0 +1,89 @@
+body, h1, h2, h3 {
+  font-family: Calibri, "Lucida Grande", Arial;
+}
+
+a {
+  color: #55d;
+  text-decoration: none;
+  padding: 0px 4px;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #888;
+}
+
+h1 {
+  font-size: 72pt;
+  line-height: 80pt;
+  text-align: center;
+  background: #ffffff;
+  border: 8pt solid #ffffff;
+  color: #888;
+  border-radius: 8pt;
+  box-shadow: 0pt 0pt 48pt rgba(0,0,0,.3);
+  margin: 64pt 0pt 16pt 0pt;
+  padding: 8pt;
+}
+
+h1:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 16pt solid transparent;
+  border-right: 16pt solid transparent;
+  border-top: 16pt solid #ffffff;
+  background: transparent;
+  position: relative;
+  float: right;
+  display: block;
+  margin: -14pt 0pt;
+  top: 108pt;
+  left: -30pt;
+}
+
+h2 {
+  font-size: 16pt;
+  line-height: 20pt;
+  text-align: right;
+  color: #888;
+  border-radius: 8pt;
+  margin: 16pt 0px;
+  padding: 8pt;
+}
+
+h3 {
+  margin: 32pt 0pt 16pt 0pt;
+  font-size: 20pt;
+  line-height: 20pt;
+  text-align: left;
+  color: #888;
+  border-radius: 8pt;
+}
+
+#container {
+  margin: 0px auto;
+}
+
+#page {
+  margin: 0px auto;
+  width: 700px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 8px;
+}
+
+.footer {
+  color: #888;
+  border-top: 1px solid #888;
+  padding-top: 8px;
+  margin: 16px 0px;
+  text-align: right;
+}
+
+pre, pre.prettyprint {
+  border: 0;
+  padding: 6pt;
+}
